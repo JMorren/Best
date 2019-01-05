@@ -24,6 +24,6 @@
 /.env
 
 # Ignore by Moes
-
+# /web/.htaccess
 drush.bat
 drush.phar
