@@ -22,3 +22,8 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore by Moes
+
+drush.bat
+drush.phar

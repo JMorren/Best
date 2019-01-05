@@ -1,7 +1,6 @@
 #
 # Apache/PHP/Drupal settings:
 #
-
 # Protect files and directories from prying eyes.
 <FilesMatch "\.(engine|inc|install|make|module|profile|po|sh|.*sql|theme|twig|tpl(\.php)?|xtmpl|yml)(~|\.sw[op]|\.bak|\.orig|\.save)?$|^(\.(?!well-known).*|Entries.*|Repository|Root|Tag|Template|composer\.(json|lock))$|^#.*#$|\.php(~|\.sw[op]|\.bak|\.orig|\.save)$">
   <IfModule mod_authz_core.c>
@@ -116,7 +115,7 @@ AddEncoding gzip svgz
   # VirtualDocumentRoot and the rewrite rules are not working properly.
   # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
-  # RewriteBase /drupal
+  RewriteBase /aegir-dev
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
