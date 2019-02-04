@@ -29,7 +29,6 @@
         "drupal/professional_responsive_theme": "^1.2",
         "drupal/rules": "^3.0@alpha",
         "drupal/scheduler": "^1.0",
-        "drupal/views_slideshow": "^4.6",
         "drupal/webform": "^5.1",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
