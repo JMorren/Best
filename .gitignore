@@ -24,6 +24,7 @@
 /.env
 
 # Ignore by Moes
-/web/.htaccess
+# web/.htaccess
+# On local --> copy .htaccess.local
 drush.bat
 drush.phar
