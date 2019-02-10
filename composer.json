@@ -44,6 +44,7 @@
         "drupal/rules": "^3.0@alpha",
         "drupal/scheduler": "^1.0",
         "drupal/webform": "^5.1",
+        "drupal/webform_views": "^5.0@alpha",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
