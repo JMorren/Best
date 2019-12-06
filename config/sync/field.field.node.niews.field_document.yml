@@ -1,0 +1,27 @@
+uuid: 32ae89a8-1a66-4334-b010-5ed77ab95f6e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document
+    - node.type.niews
+  module:
+    - file
+id: node.niews.field_document
+field_name: field_document
+entity_type: node
+bundle: niews
+label: Document
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: aegir/uploads
+  file_extensions: 'pdf txt jpg jpeg png'
+  max_filesize: 5MB
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,21 @@
+uuid: 10043fca-3196-4d93-b7b5-8af3046e0114
+langcode: nl
+status: true
+dependencies: {  }
+name: schalen_en_bijsnijden_200_x_300
+label: 'Schalen en bijsnijden 300x200'
+effects:
+  7ab79918-0155-4560-a7a6-faf95238ecf5:
+    uuid: 7ab79918-0155-4560-a7a6-faf95238ecf5
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 300
+      height: 200
+      anchor: center-center
+  c6219723-c74a-4330-9593-3b72bf8b6918:
+    uuid: c6219723-c74a-4330-9593-3b72bf8b6918
+    id: image_convert
+    weight: -10
+    data:
+      extension: png

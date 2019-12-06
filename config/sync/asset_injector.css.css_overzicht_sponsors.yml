@@ -1,0 +1,11 @@
+uuid: dd7dce6a-12c4-4ada-bcf7-9ed8f8523c7b
+langcode: nl
+status: true
+dependencies: {  }
+id: css_overzicht_sponsors
+label: 'CSS overzicht Sponsors'
+code: ".sponsors-box{\r\n    border:1px solid #0072b0;\r\n    box-shadow: 5px 5px 10px #888888;\r\n    padding:5px;\r\n    margin-bottom:10px;\r\n}\r\n.sponsors-afbeelding img\r\n{\r\n  box-shadow:5px 5px 5px 2px #444444;\r\n  margin-bottom:20px;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

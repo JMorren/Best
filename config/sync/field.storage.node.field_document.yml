@@ -1,0 +1,23 @@
+uuid: 194aad6b-7fd5-4827-bd29-e0594e756795
+langcode: nl
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_document
+field_name: field_document
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

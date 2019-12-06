@@ -1,0 +1,47 @@
+uuid: a3ec1e17-908a-4558-99bf-e3932b1d3bbc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.artikel_w_inschrijving.body
+    - field.field.node.artikel_w_inschrijving.field_image
+    - field.field.node.artikel_w_inschrijving.field_inschrijvingsformulier
+    - field.field.node.artikel_w_inschrijving.field_sectie
+    - image.style.schalen_en_bijsnijden_200_x_133
+    - node.type.artikel_w_inschrijving
+  module:
+    - image
+    - text
+    - user
+id: node.artikel_w_inschrijving.teaser
+targetEntityType: node
+bundle: artikel_w_inschrijving
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: schalen_en_bijsnijden_200_x_133
+      image_link: content
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_inschrijvingsformulier: true
+  field_sectie: true
+  langcode: true

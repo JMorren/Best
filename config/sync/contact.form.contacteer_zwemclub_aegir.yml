@@ -1,0 +1,12 @@
+uuid: 8849049b-da53-4944-aec3-d5da97841467
+langcode: nl
+status: true
+dependencies: {  }
+id: contacteer_zwemclub_aegir
+label: 'Contacteer Zwemclub Aegir'
+recipients:
+  - info@zwemclub-aegir.be
+reply: ''
+weight: 0
+message: "Bedankt voor je bericht.\r\nWij komen snel terug met een antwoord."
+redirect: ''

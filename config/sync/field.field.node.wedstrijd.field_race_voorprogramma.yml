@@ -1,0 +1,27 @@
+uuid: e02c20ae-4346-4cb9-aac5-d92b8862fdb2
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_race_voorprogramma
+    - node.type.wedstrijd
+  module:
+    - file
+id: node.wedstrijd.field_race_voorprogramma
+field_name: field_race_voorprogramma
+entity_type: node
+bundle: wedstrijd
+label: Voorprogramma
+description: 'Voorprogramma voor de wedstrijd'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: aegir/uploads
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: '5 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

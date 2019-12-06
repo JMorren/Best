@@ -1,0 +1,11 @@
+uuid: b46438ba-871a-43dc-902a-1a4ca352622b
+langcode: nl
+status: false
+dependencies: {  }
+id: css_tekst_competitie
+label: 'CSS tekst-competitie'
+code: ".competitie-tekst{\r\nfont-family: Arial, Helvetica, sans-serif;\r\nfont-size: 14px;\r\nletter-spacing: 0px;\r\nword-spacing: 0px;\r\ncolor: #000000;\r\nfont-weight: normal;\r\ntext-decoration: none;\r\nfont-style: normal;\r\nfont-variant: normal;\r\ntext-transform: none;\r\nmargin-top:50px;\r\npadding-top:40px;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

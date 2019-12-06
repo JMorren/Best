@@ -1,0 +1,14 @@
+uuid: 72855efa-3b42-4bc0-be72-2ee339ae307d
+name: 'Zwemclub BEST - Aegir'
+mail: webmaster@zwemclub-aegir.be
+slogan: Diest
+page:
+  403: ''
+  404: /
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: nl
+default_langcode: nl
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

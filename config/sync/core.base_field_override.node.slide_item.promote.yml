@@ -1,0 +1,22 @@
+uuid: 7d7b27df-c580-4b09-94cc-95f750ee1975
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.slide_item
+id: node.slide_item.promote
+field_name: promote
+entity_type: node
+bundle: slide_item
+label: 'Aangeraden op de voorpagina'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

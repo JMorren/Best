@@ -1,0 +1,19 @@
+uuid: 40d02ccb-f04a-4f82-85fa-b238d83bfc24
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_race_locatie
+    - node.type.wedstrijd
+id: node.wedstrijd.field_race_locatie
+field_name: field_race_locatie
+entity_type: node
+bundle: wedstrijd
+label: Locatie
+description: "Naam & adres van het zwembad waar de wedstrijd plaatsvindt.\r\nBijvoorbeeld:\r\nStedelijk zwembad De Warande\r\nOmer Vanaudenhovelaan 3, 3290 Diest"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

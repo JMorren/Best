@@ -1,0 +1,38 @@
+uuid: 1176570f-b127-457f-906e-1f280c8ebbc9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.sponsors
+  module:
+    - image
+id: node.sponsors.field_image
+field_name: field_image
+entity_type: node
+bundle: sponsors
+label: Image
+description: 'Logo van de sponsor'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: aegir/images
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 1MB
+  max_resolution: ''
+  min_resolution: 200x10
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

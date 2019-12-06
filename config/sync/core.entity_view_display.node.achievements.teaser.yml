@@ -1,0 +1,31 @@
+uuid: 3541898e-efb5-4a79-bb34-262d69d21bd7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.achievements.field_image
+    - field.field.node.achievements.field_website
+    - image.style.schalen_breedte200
+    - node.type.achievements
+  module:
+    - image
+    - user
+id: node.achievements.teaser
+targetEntityType: node
+bundle: achievements
+mode: teaser
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: schalen_breedte200
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  field_website: true
+  langcode: true
+  links: true

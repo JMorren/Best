@@ -1,0 +1,27 @@
+uuid: 6e0849d8-c8dc-4d2c-92d3-a4b12c51a35a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - professional_responsive_theme
+_core:
+  default_config_hash: GsVv8E61NKGPg_96V6e_azXas8vSrReAzZ9rjXWndYE
+id: professional_responsive_theme_account_menu
+theme: professional_responsive_theme
+region: footer_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

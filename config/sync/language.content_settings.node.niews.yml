@@ -1,0 +1,11 @@
+uuid: 78c4e093-ba43-43fe-b659-f5a300cdaa06
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.niews
+id: node.niews
+target_entity_type_id: node
+target_bundle: niews
+default_langcode: site_default
+language_alterable: false

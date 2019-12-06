@@ -1,0 +1,25 @@
+uuid: 54593409-88d0-4361-8648-ba5b907b37d4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inschrijvingsformulier
+    - node.type.wedstrijd
+  module:
+    - webform
+id: node.wedstrijd.field_inschrijvingsformulier
+field_name: field_inschrijvingsformulier
+entity_type: node
+bundle: wedstrijd
+label: Inschrijvingsformulier
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

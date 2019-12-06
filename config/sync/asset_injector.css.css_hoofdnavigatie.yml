@@ -1,0 +1,11 @@
+uuid: acb3cd3f-4fa7-4a58-8394-86de336d8334
+langcode: nl
+status: true
+dependencies: {  }
+id: css_hoofdnavigatie
+label: 'CSS hoofdnavigatie'
+code: ".primary-menu-wrap\r\n{\r\nbackground:#1C6EA4;\r\nborder-bottom: 1px solid #FFF;\r\nborder-top: 1px solid #FFF;\r\n}\r\n.menu-base-theme\r\n{\r\n  text-align: center;\r\n  background:#1C6EA4;\r\n  text-decoration: none;\r\n  text-transform: uppercase;\r\n  font-size: 13px;\r\n}\r\n.menu-base-theme a:hover\r\n{\r\n  background:#666666;\r\n  color: #FFFFFF;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  text-transform: uppercase;\r\n}\r\n.menu-base-theme li a\r\n{\r\n  background:#1C6EA4;\r\n  color: #999;\r\n  text-decoration: none;\r\n  text-transform: uppercase;\r\n}\r\n.menu-base-theme li a:active{\r\n  background: rgb(0, 55, 65);\r\n  color: #999;\r\n}\r\n.menu-base-theme ul a:hover, .menu-base-theme ul a:focus, .menu-base-theme ul a:active, .menu-base-theme ul a.highlighted, .menu-base-theme li a:active\r\n {\r\n    background: rgb(0, 55, 65);\r\n    color: #FFFFFF;\r\n}\r\n"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

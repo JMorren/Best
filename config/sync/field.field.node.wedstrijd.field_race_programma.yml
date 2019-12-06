@@ -1,0 +1,27 @@
+uuid: a9693f04-0bd9-4a9d-a6e6-7a9f04f4689b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_race_programma
+    - node.type.wedstrijd
+  module:
+    - file
+id: node.wedstrijd.field_race_programma
+field_name: field_race_programma
+entity_type: node
+bundle: wedstrijd
+label: Programma
+description: 'Programma / Startlijst van de wedstrijd'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: aegir/uploads
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: '10 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

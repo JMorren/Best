@@ -1,0 +1,24 @@
+uuid: ebfb3db2-b35a-4658-b284-8d071cde4b6c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view._aegir_achievements
+  module:
+    - views
+  theme:
+    - professional_responsive_theme
+id: views_block___aegir_achievements_block_1
+theme: professional_responsive_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:_aegir_achievements-block_1'
+settings:
+  id: 'views_block:_aegir_achievements-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

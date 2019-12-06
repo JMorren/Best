@@ -1,0 +1,25 @@
+uuid: c610af5c-6202-4410-ba03-f396fa87d195
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - professional_responsive_theme
+_core:
+  default_config_hash: qcAPUWk34dkzxn_J1ugDC0oZ-7UCy64vKGQ05DxoBoY
+id: professional_responsive_theme_branding
+theme: professional_responsive_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

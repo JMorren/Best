@@ -1,0 +1,23 @@
+uuid: a8e420b8-3869-467f-a43c-9b547da9f495
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.achievements
+  module:
+    - link
+id: node.achievements.field_website
+field_name: field_website
+entity_type: node
+bundle: achievements
+label: Website
+description: 'Link naar de website (Eventueel)'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,14 @@
+uuid: e43de847-5c32-4b61-b7e9-91c08a9cdde3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.licentiezwemmer
+  module:
+    - user
+id: user_remove_role_action.licentiezwemmer
+label: 'Remove the Licentiezwemmer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: licentiezwemmer

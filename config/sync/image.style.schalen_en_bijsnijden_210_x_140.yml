@@ -1,0 +1,21 @@
+uuid: c9d1f688-a6fe-47c5-aaac-f8ec110427c2
+langcode: nl
+status: true
+dependencies: {  }
+name: schalen_en_bijsnijden_210_x_140
+label: 'Schalen en bijsnijden 210 x 140'
+effects:
+  46b931c9-ff60-4b82-99cf-ff4c00b71320:
+    uuid: 46b931c9-ff60-4b82-99cf-ff4c00b71320
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 210
+      height: 140
+      anchor: center-top
+  a20fcd36-03e8-4737-95f8-77d1c466a8f1:
+    uuid: a20fcd36-03e8-4737-95f8-77d1c466a8f1
+    id: image_convert
+    weight: 2
+    data:
+      extension: png

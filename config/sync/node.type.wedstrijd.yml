@@ -1,0 +1,29 @@
+uuid: a0fdf8bb-202d-45dc-80fd-5b5e1a17d750
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+name: Wedstrijd
+type: wedstrijd
+description: "Wedstrijd waaraan wordt deelgenomen.\r\nAlle gegevens over deze wedstrijd.\r\nInfo voor vooraf:\r\n<ul>\r\n<li>Voorprogramma</li>\r\n<li>Inschrijvingsformulier (PACO)</li>\r\n<li>Inschrijvingen BEST/Aegir</li>\r\n<li>Namenlijst</li>\r\n</ul>\r\nInfo nadien:\r\n<ul>\r\n<li>Algemeen resultaat</li>\r\n<li>Resultaat van de eigen zwemmers</li>\r\n</ul>"
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

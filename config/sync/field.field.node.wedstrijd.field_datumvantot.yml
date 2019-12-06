@@ -1,0 +1,21 @@
+uuid: b75f0330-ba64-4422-9dbe-679192374fed
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_datumvantot
+    - node.type.wedstrijd
+  module:
+    - datetime_range
+id: node.wedstrijd.field_datumvantot
+field_name: field_datumvantot
+entity_type: node
+bundle: wedstrijd
+label: 'Wedstrijd datum'
+description: "Datum wanneer de wedstrijd plaatsvindt.\r\n<ul>\r\n<li>Voor meerdaagse wedstrijden, kan een begin- en einddatum worden ingegeven</li>\r\n<li>Voor ééndags-wedstrijden, dien je 2x dezelfde datum in te geven</li>\r\n</ul>"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

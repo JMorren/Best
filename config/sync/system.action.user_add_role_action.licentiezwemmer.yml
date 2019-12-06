@@ -1,0 +1,14 @@
+uuid: b2c2011c-0bc5-46f8-94f2-dbe0a39dec1b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.licentiezwemmer
+  module:
+    - user
+id: user_add_role_action.licentiezwemmer
+label: 'Add the Licentiezwemmer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: licentiezwemmer

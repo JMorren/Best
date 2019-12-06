@@ -1,0 +1,23 @@
+uuid: 1b017724-7d10-4ffa-a6be-9d82a789e5d4
+langcode: nl
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - professional_responsive_theme
+_core:
+  default_config_hash: JM8_Iyo3pw-NaEtTd6WFiMCP-pDUgWZU-2D0eag5QZk
+id: professional_responsive_theme_search
+theme: professional_responsive_theme
+region: auto_hidden_block
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Zoeken
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: dfb854b5-735b-436b-834b-995c11703a49
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Uw bericht is verzonden.'
+redirect: ''

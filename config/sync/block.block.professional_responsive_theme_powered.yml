@@ -1,0 +1,22 @@
+uuid: 2db83303-6c19-4850-9950-d385bb3cee2f
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - professional_responsive_theme
+_core:
+  default_config_hash: YR8c6mXXUB4KbbexVeU_WGmeqXRMnbYUS5Hu24snGUw
+id: professional_responsive_theme_powered
+theme: professional_responsive_theme
+region: auto_hidden_block
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

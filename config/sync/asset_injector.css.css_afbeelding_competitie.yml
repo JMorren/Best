@@ -1,0 +1,11 @@
+uuid: 5fb5f7f6-f867-48c0-8a48-11a0fbc17896
+langcode: nl
+status: false
+dependencies: {  }
+id: css_afbeelding_competitie
+label: 'CSS afbeelding-competitie'
+code: ".competitie-afbeelding img\r\n{\r\n  border-radius:25px;\r\n  box-shadow:5px 5px 5px 2px #444444;\r\n  margin-bottom:20px;\r\n  margin-right:20px;\r\n  margin-Left:2px;\r\n  margin-top:10px;\r\n  float:left;\r\n}\r\n"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

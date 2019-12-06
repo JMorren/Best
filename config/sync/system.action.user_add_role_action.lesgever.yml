@@ -1,0 +1,14 @@
+uuid: 66ad2543-5cf5-4fd0-81a0-76688b57db75
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.lesgever
+  module:
+    - user
+id: user_add_role_action.lesgever
+label: 'Add the Lesgever role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: lesgever

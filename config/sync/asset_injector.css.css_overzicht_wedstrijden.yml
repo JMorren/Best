@@ -1,0 +1,11 @@
+uuid: 8850dc71-a08c-4477-90ff-e605f745a9ad
+langcode: nl
+status: true
+dependencies: {  }
+id: css_overzicht_wedstrijden
+label: 'CSS overzicht wedstrijden'
+code: ".wedstrijden-box{\r\n    border:1px solid #0072b0;\r\n    box-shadow: 5px 5px 10px #888888;\r\n    border-radius:15px;\r\n    padding:5px;\r\n    margin-bottom:10px;\r\n}\r\n.wedstrijden-tekst{\r\n  font-family: Verdana, Geneva, sans-serif;\r\n  font-size: 13px;\r\n  letter-spacing: 0px;\r\n  word-spacing: 0px;\r\n  font-weight: normal;\r\n  font-weight: 100;\r\n  text-decoration: none;\r\n  font-style: normal;\r\n  font-variant: normal;\r\n  text-transform: none;\r\n  margin-top: 0px;\r\n}\r\n.views-label{\r\n  font-family: Verdana, Geneva, sans-serif;\r\n  font-size: 14px;\r\n  font-weight: 700;\r\n  text-decoration: none;\r\n  font-style: normal;\r\n  font-variant: normal;\r\n  text-transform: uppercase;\r\n  line-height: 1.8em;\r\n}\r\n\r\n.wedstrijden-titel{\r\n  border-bottom: 1px solid #CCC;\r\n    color: #555;\r\n    font-family: Arial;\r\n    font-size: 18px;\r\n    font-weight: normal;\r\n    margin: 0px 0px;\r\n    padding: 20px 0px 4px 0px;\r\n    text-transform: uppercase;\r\n}\r\n.wedstrijden-readmore{\r\n  float: right;\r\n  color: rgb(255, 255, 255);\r\n  font-size: 13px;\r\n  line-height: 13px; \r\n  padding: 6px; \r\n  margin-right: 10px;\r\n  border-radius: 10px; \r\n  font-family: Arial, Helvetica, sans-serif;\r\n  font-weight: normal; \r\n  text-decoration: none; \r\n  font-style: normal;   \r\n  font-variant: normal;\r\n  text-transform: uppercase;\r\n  background: #1C6EA4;\r\n  box-shadow: #616161 5px 5px 5px 0px; \r\n  border: 2px solid rgb(28, 110, 164); \r\n}\r\n.wedstrijden-readmore a:hover {\r\n  background: #1C6EA4; \r\n  color: #B0B0B0;\r\n  text-decoration: none;\r\n}\r\n.wedstrijden-readmore a {\r\n  color: rgb(255, 255, 255);\r\n}\r\n.wedstrijden-readmore:active {\r\n  background: #144E75;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

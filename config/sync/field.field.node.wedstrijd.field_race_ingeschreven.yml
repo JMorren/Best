@@ -1,0 +1,27 @@
+uuid: 7e05e68c-81e1-44cf-ac51-ab979f3dd70a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_race_ingeschreven
+    - node.type.wedstrijd
+  module:
+    - file
+id: node.wedstrijd.field_race_ingeschreven
+field_name: field_race_ingeschreven
+entity_type: node
+bundle: wedstrijd
+label: Ingeschreven
+description: "Documenten (files) met de ingeschreven zwemmers.\r\nBijvoorbeeld:\r\n<ul>\r\n<li>Inschrijvingen BEST</li>\r\n<li>namenlijst</li>\r\n<li>...</li>\r\n</ul>"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: aegir/uploads
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: 1MB
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

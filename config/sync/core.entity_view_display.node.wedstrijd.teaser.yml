@@ -1,0 +1,60 @@
+uuid: ca12ca96-2c6d-4ae9-bf4e-bd27705fdbf5
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.wedstrijd.field__race_resultaten
+    - field.field.node.wedstrijd.field_datumvantot
+    - field.field.node.wedstrijd.field_inschrijvingsformulier
+    - field.field.node.wedstrijd.field_race_informatie
+    - field.field.node.wedstrijd.field_race_ingeschreven
+    - field.field.node.wedstrijd.field_race_locatie
+    - field.field.node.wedstrijd.field_race_programma
+    - field.field.node.wedstrijd.field_race_voorprogramma
+    - node.type.wedstrijd
+  module:
+    - file
+    - text
+    - user
+id: node.wedstrijd.teaser
+targetEntityType: node
+bundle: wedstrijd
+mode: teaser
+content:
+  field_race_informatie:
+    type: text_trimmed
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_race_locatie:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_race_programma:
+    type: file_default
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field__race_resultaten: true
+  field_datumvantot: true
+  field_inschrijvingsformulier: true
+  field_race_ingeschreven: true
+  field_race_voorprogramma: true
+  langcode: true

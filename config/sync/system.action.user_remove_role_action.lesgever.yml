@@ -1,0 +1,14 @@
+uuid: 8bb81fe9-a4b1-44e7-b5c4-ba53955823d8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.lesgever
+  module:
+    - user
+id: user_remove_role_action.lesgever
+label: 'Remove the Lesgever role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: lesgever

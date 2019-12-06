@@ -1,0 +1,22 @@
+uuid: 90fca943-fb61-49e9-a261-bd6397050855
+langcode: nl
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - professional_responsive_theme
+_core:
+  default_config_hash: pt6TOyOyKi9ANai4VDSkzqUuN2_xcqws_oZdrcnwKLM
+id: professional_responsive_theme_help
+theme: professional_responsive_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

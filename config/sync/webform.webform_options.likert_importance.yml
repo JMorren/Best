@@ -1,0 +1,14 @@
+uuid: daff21e3-50ca-4854-8a6a-80c3576cfc20
+langcode: nl
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: Hbc8n5HtVZVs5fSBSpSbuY07CVvqkKP76csvRHN9pK8
+id: likert_importance
+label: 'Likertschaal: Belangrijkheid'
+category: Likertschaal
+likert: true
+options: "1: Not at all Important\n2: Somewhat Important\n3: Neutral\n4: Important\n5: Very Important\n"

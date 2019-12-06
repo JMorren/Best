@@ -1,0 +1,27 @@
+uuid: 2f0b05a7-581f-4c52-8e77-0508d26dd5a2
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__race_resultaten
+    - node.type.wedstrijd
+  module:
+    - file
+id: node.wedstrijd.field__race_resultaten
+field_name: field__race_resultaten
+entity_type: node
+bundle: wedstrijd
+label: Resultaten
+description: "Resultaten van de wedstrijd.\r\nBijvoorbeeld:\r\n<ul>\r\n<li>Resultaat-BEST/Aegir</li>\r\n<li>Algemeen resultaat</li>\r\n<li>...</li>\r\n</ul>"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: aegir/uploads
+  file_extensions: 'txt pdf doc docx'
+  max_filesize: '5 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

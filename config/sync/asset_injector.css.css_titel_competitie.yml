@@ -1,0 +1,11 @@
+uuid: 408f51e8-a2f8-4352-899e-d1ca5c883101
+langcode: nl
+status: false
+dependencies: {  }
+id: css_titel_competitie
+label: 'CSS titel-competitie'
+code: ".competitie-titel{\r\n  font-family: \"Arial Black\", Gadget, sans-serif;\r\n  font-size: 16px;\r\n  letter-spacing: 0px;\r\n  word-spacing: 0px;\r\n  color: #000000;\r\n  font-weight: normal;\r\n  text-decoration: none;\r\n  font-style: normal;\r\n  font-variant: small-caps;\r\n  text-transform: none;\r\n  margin-Left:20px;\r\n  margin-top:20px;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

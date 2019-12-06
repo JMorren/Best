@@ -1,0 +1,11 @@
+uuid: 0629b28b-a7a4-4011-a66f-98b3cf578293
+langcode: nl
+status: true
+dependencies: {  }
+id: css_homepage
+label: 'CSS Homepage'
+code: ".homepage-box{\r\n  position:relative;\r\n  border:1px solid #0072b0;\r\n  box-shadow: 5px 5px 10px #888888;\r\n  border-radius:15px;\r\n  padding:10px;\r\n  margin-bottom:10px;\r\n}\r\n.homepage-afbeelding img\r\n{\r\n  border-radius:25px;\r\n  box-shadow:5px 5px 5px 2px #444444;\r\n  margin-bottom:20px;\r\n  margin-right:20px;\r\n  margin-Left:2px;\r\n  margin-top:10px;\r\n  float:left;\r\n}\r\n.homepage-tekst{\r\n  font-family: Verdana, Geneva, sans-serif;\r\n  font-size: 14px;\r\n  letter-spacing: 0px;\r\n  word-spacing: 0px;\r\n  color: #000000;\r\n  font-weight: normal;\r\n  text-decoration: none;\r\n  font-style: normal;\r\n  font-variant: normal;\r\n  text-transform: none;\r\n  margin-top:10px;\r\n  padding-top:10px;\r\n}\r\n.homepage-titel {\r\n  border-bottom: 1px solid #CCC;\r\n  color: #555;\r\n  font-family: Arial;\r\n  font-size: 18px;\r\n  font-weight: normal;\r\n  margin: 5px 0px;\r\n  padding: 0px 0px 4px 0px;\r\n  text-transform: uppercase;\r\n}\r\n.homepage-readmore{\r\n  float: right;\r\n  position: absolute;\r\n  bottom: 5%;\r\n  right: 2%;\r\n  color: rgb(255, 255, 255);\r\n  font-size: 13px;\r\n  line-height: 13px; \r\n  padding: 6px; \r\n  border-radius: 10px; \r\n  font-family: Arial, Helvetica, sans-serif;\r\n  font-weight: normal; \r\n  text-decoration: none; \r\n  font-style: normal;   \r\n  font-variant: normal;\r\n  text-transform: uppercase;\r\n  background: #1C6EA4;\r\n  box-shadow: #616161 5px 5px 5px 0px; \r\n  border: 2px solid rgb(28, 110, 164); \r\n}\r\n.homepage-readmore a:hover {\r\n  background: #1C6EA4; \r\n  color: #B0B0B0;\r\n  text-decoration: none;\r\n}\r\n.homepage-readmore a {\r\n  color: rgb(255, 255, 255);\r\n}\r\n.homepage-readmore:active {\r\n  background: #144E75;\r\n}\r\n"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

@@ -1,0 +1,11 @@
+uuid: 0fc78882-37b6-4af1-897a-feaa2bdd6cee
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sectie
+id: taxonomy_term.sectie
+target_entity_type_id: taxonomy_term
+target_bundle: sectie
+default_langcode: site_default
+language_alterable: false

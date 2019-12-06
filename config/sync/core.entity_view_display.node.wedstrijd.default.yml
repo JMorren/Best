@@ -1,0 +1,97 @@
+uuid: 3fa38cc0-0b44-490b-a8e6-723af8d30a36
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.wedstrijd.field__race_resultaten
+    - field.field.node.wedstrijd.field_datumvantot
+    - field.field.node.wedstrijd.field_inschrijvingsformulier
+    - field.field.node.wedstrijd.field_race_informatie
+    - field.field.node.wedstrijd.field_race_ingeschreven
+    - field.field.node.wedstrijd.field_race_locatie
+    - field.field.node.wedstrijd.field_race_programma
+    - field.field.node.wedstrijd.field_race_voorprogramma
+    - node.type.wedstrijd
+  module:
+    - datetime_range
+    - file
+    - text
+    - user
+    - webform
+id: node.wedstrijd.default
+targetEntityType: node
+bundle: wedstrijd
+mode: default
+content:
+  field__race_resultaten:
+    weight: 7
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_datumvantot:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: d/m/Y
+      separator: t/m
+    third_party_settings: {  }
+    type: daterange_custom
+    region: content
+  field_inschrijvingsformulier:
+    weight: 8
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  field_race_informatie:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_race_ingeschreven:
+    weight: 6
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_race_locatie:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_race_programma:
+    weight: 5
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_race_voorprogramma:
+    weight: 4
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

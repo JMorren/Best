@@ -1,0 +1,220 @@
+langcode: nl
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: inschrijving_proefles_zwemschool
+title: 'Inschrijving proefles zwemschool'
+description: ''
+category: ''
+elements: "flb_start:\n  '#type': webform_flexbox\n  fld_naam:\n    '#type': webform_name\n    '#title': Naam\n    '#title__access': false\n    '#first__title': Voornaam\n    '#first__required': true\n    '#middle__access': false\n    '#last__title': Achternaam\n    '#last__required': true\n    '#suffix__access': false\n    '#degree__access': false\n    '#required': true\nflb_proefles1:\n  '#type': webform_flexbox\n  '#align_items': center\n  fld_geboortedatum:\n    '#type': datelist\n    '#title': Geboortedatum\n    '#required': true\n    '#flex': '3'\n    '#format': short\n    '#date_date_max': '- 3 years'\n    '#date_part_order':\n      - year\n      - month\n      - day\n    '#date_year_range': '1990:2025'\n  fld_geboorteplaats:\n    '#type': textfield\n    '#title': Geboorteplaats\n    '#title_display': before\n    '#required': true\n    '#flex': '3'\nflb_proefles2:\n  '#type': webform_flexbox\n  '#align_items': center\nfld_adres:\n  '#type': webform_address\n  '#title': Adres\n  '#address__title': 'Straat en nummer'\n  '#address__required': true\n  '#address_2__access': false\n  '#city__title': Stad/Gemeente\n  '#city__required': true\n  '#state_province__access': false\n  '#state_province__title': Provincie\n  '#postal_code__title': Postnummer\n  '#country__access': false\n  '#required': true\nflb_proefles3:\n  '#type': webform_flexbox\n  fld_provincie:\n    '#type': select\n    '#title': Provincie\n    '#options': belgische_provincies\n    '#required': true\n    '#flex': '2'\n  fld_geslacht:\n    '#type': radios\n    '#title': Geslacht\n    '#options': gender\n    '#options_display': side_by_side\n    '#required': true\n    '#flex': '2'\nflb_proefles4:\n  '#type': webform_flexbox\n  '#align_items': center\n  fld_telefoon:\n    '#type': tel\n    '#title': Telefoon\n    '#international': true\n    '#international_initial_country': BE\n  fld_gsm:\n    '#type': tel\n    '#title': GSM\n    '#international': true\n    '#international_initial_country': BE\nflb_proefles5:\n  '#type': webform_flexbox\n  '#align_items': center\n  fld_email:\n    '#type': email\n    '#title': E-Mail\n    '#required': true\n    '#flex': '3'\n  fld_rijksregisternummer:\n    '#type': textfield\n    '#title': Rijksregisternummer\n    '#placeholder': 'Terug te vinden op je identiteitskaart'\n    '#input_mask': 999999-999-99\n    '#flex': '2'\nflb_proefles6:\n  '#type': webform_flexbox\n  '#align_items': center\n  aantal_lessen_per_week:\n    '#type': checkboxes\n    '#title': 'Aantal lessen per week'\n    '#description': \"Belangrijke keuze:\\r\\n<ul>\\r\\n\\t<li>Het gaat&nbsp;hier&nbsp;om 2 verschillende&nbsp;wachtlijsten.</li>\\r\\n\\t<li>Lesgevers zijn voor beide&nbsp;keuzes&nbsp;dezelfden.</li>\\r\\n\\t<li>Organisatie 2x per week is volledig&nbsp;Aegir</li>\\r\\n\\t<li>Organisatie 1x per week is een samenwerking tussen Aegir en Spordienst Diest&nbsp;&nbsp;</li>\\r\\n</ul>\"\n    '#options':\n      1X: '1x per week -- Wekelijks op zaterdag namiddag'\n      2X: '2x per week -- Twee maal per week op dinsdag- en donderdagavond'\n    '#options_display': side_by_side\n    '#required': true\nflb_proefles7:\n  '#type': webform_flexbox\n  '#align_items': flex-end\n  fld_broer_zus:\n    '#type': radios\n    '#title': 'Andere gezinsleden, lid van de club?'\n    '#description': 'Broerdje(s) of zusje(s) bij de club ?'\n    '#options': yes_no\n    '#options_display': side_by_side\n    '#required': true\n    '#flex': '2'\nflb_proefles8:\n  '#type': webform_flexbox\n  '#align_items': center\n  fld_broer_zus_namen:\n    '#type': textfield\n    '#title': 'Naam en voornaam van leden'\n    '#multiple': true\n    '#description': 'Naam en voornaam van huidige leden.'\n    '#states':\n      visible-slide:\n        ':input[name=\"fld_broer_zus\"]':\n          value: Ja\n    '#multiple__sorting': false\n    '#multiple__add_more': false\nflb_end:\n  '#type': webform_flexbox\n  '#align_items': flex-end\n  fld_opmerkingen:\n    '#type': textarea\n    '#title': Opmerkingen\n    '#flex': '3'"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_admin_theme: false
+  form_title: both
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: false
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: false
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_label: ''
+  submission_log: false
+  submission_views:
+    proefles-admin:
+      view: 'webform_proefles_inzendingen:embed_administer'
+      title: 'Administratie Inschrijvingen voor een proefles'
+      webform_routes:
+        - entity.webform.results_submissions
+  submission_views_replace:
+    webform_routes: {  }
+    node_routes: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_title: 'Bevestiging van je aanvraag voor proefles'
+  confirmation_message: "<p>Beste,</p>\r\n\r\n<p>Je aanvraag voor een proefles bij de zwemschool werd doorgestuurd, alvast bedankt voor u inschrijving. Van zodra de proefles kan plaatsvinden, nemen wij contact met u op, via email.&nbsp;<br />\r\nVanwege de erg lange wachtlijst kan het enige tijd duren alvorens uw kind wordt uitgenodigd voor een het afleggen van een proefles, desalniettemin is uw kind nu al opgenomen op de wachtlijst.</p>\r\n\r\n<p>Er werd een bevestigingsmail verstruurd naar&nbsp;[webform_submission:values:fld_email]<br />\r\nIndien je nog met vragen zit, kan je hiervoor steeds terecht bij op het e-mailadres&nbsp;<a href=\"mailto:zwemschool@zwemclub-aegir.be\" target=\"_blank\">zwemschool@<wbr />zwemclub-aegir.be</a>.</p>\r\n\r\n<p>Sportieve groetjes</p>"
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_view: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  e_mail_confirm:
+    id: email
+    label: 'Confirmatie Email'
+    handler_id: e_mail_confirm
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: _default
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: webmaster@zwemclub-aegir.be
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: 'Bevestiging van je aanvraag voor proefles'
+      body: "<p>Je aanvraag voor een proefles bij de zwemschool werd doorgestuurd, alvast bedankt voor u inschrijving. Van zodra de proefles kan plaatsvinden, nemen wij contact met u op, via email.&nbsp;<br />\r\nVanwege de erg lange wachtlijst kan het enige tijd duren alvorens uw kind wordt uitgenodigd voor een het afleggen van een proefles, desalniettemin is uw kind nu al opgenomen op de wachtlijst.</p>\r\n\r\n<p>Indien je nog met vragen zit, kan je hiervoor steeds terecht bij op het e-mailadres&nbsp;<a href=\"mailto:zwemschool@zwemclub-aegir.be\" target=\"_blank\">zwemschool@<wbr />zwemclub-aegir.be</a>.</p>\r\n\r\n<p>Hierbij een overzicht van de gegevens die u invulde:</p>\r\n[webform_submission:values]"
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      parameters: {  }
+uuid: 6fd3ab41-2818-4c5d-99a5-500c62bea52f

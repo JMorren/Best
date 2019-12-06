@@ -1,0 +1,14 @@
+uuid: d37a3fec-1d1d-4760-b6b4-84d8421d6c52
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.bestuurslid
+  module:
+    - user
+id: user_remove_role_action.bestuurslid
+label: 'Remove the Bestuurslid role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bestuurslid

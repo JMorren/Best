@@ -1,0 +1,20 @@
+uuid: a95b582a-d3d0-489a-a413-64d9a517d070
+langcode: nl
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_datumvantot
+field_name: field_datumvantot
+entity_type: node
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

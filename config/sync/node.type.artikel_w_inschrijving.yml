@@ -1,0 +1,17 @@
+uuid: defd67e6-a577-4d6a-9ca8-58a04a9f500a
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Artikel_W_Inschrijving
+type: artikel_w_inschrijving
+description: "Artikel. Inhoud van de website\r\nEnkel foto in teaser.\r\nMet inschrijvingsformulier."
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

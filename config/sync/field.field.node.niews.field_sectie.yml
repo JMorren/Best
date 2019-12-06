@@ -1,0 +1,29 @@
+uuid: 14305f55-1509-435a-86ba-c3d96e167ec4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sectie
+    - node.type.niews
+    - taxonomy.vocabulary.sectie
+id: node.niews.field_sectie
+field_name: field_sectie
+entity_type: node
+bundle: niews
+label: Sectie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sectie: sectie
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

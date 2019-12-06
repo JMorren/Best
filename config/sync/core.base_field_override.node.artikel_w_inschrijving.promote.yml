@@ -1,0 +1,22 @@
+uuid: bddd262d-2e30-48ef-9f5b-9c8e62048de8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.artikel_w_inschrijving
+id: node.artikel_w_inschrijving.promote
+field_name: promote
+entity_type: node
+bundle: artikel_w_inschrijving
+label: 'Aangeraden op de voorpagina'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

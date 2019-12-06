@@ -1,0 +1,39 @@
+uuid: fd9e60c8-8242-478a-8c38-db4ec1cb18bc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.artikel_w_inschrijving.body
+    - field.field.node.artikel_w_inschrijving.field_image
+    - field.field.node.artikel_w_inschrijving.field_inschrijvingsformulier
+    - field.field.node.artikel_w_inschrijving.field_sectie
+    - node.type.artikel_w_inschrijving
+  module:
+    - text
+    - user
+    - webform
+id: node.artikel_w_inschrijving.default
+targetEntityType: node
+bundle: artikel_w_inschrijving
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_inschrijvingsformulier:
+    weight: 1
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  field_image: true
+  field_sectie: true
+  langcode: true
+  links: true

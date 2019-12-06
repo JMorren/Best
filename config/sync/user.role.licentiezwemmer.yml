@@ -1,0 +1,9 @@
+uuid: e1ab4876-9868-4452-acbe-faa03de92a47
+langcode: nl
+status: true
+dependencies: {  }
+id: licentiezwemmer
+label: Licentiezwemmer
+weight: 3
+is_admin: null
+permissions: {  }

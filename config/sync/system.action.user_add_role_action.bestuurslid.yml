@@ -1,0 +1,14 @@
+uuid: 075cf9ef-d1de-4fc7-a0d0-3a905c3a7a3f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.bestuurslid
+  module:
+    - user
+id: user_add_role_action.bestuurslid
+label: 'Add the Bestuurslid role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: bestuurslid

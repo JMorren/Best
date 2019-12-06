@@ -1,0 +1,14 @@
+uuid: 22d96ec5-ef23-4715-95b1-ad8d92cbef78
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.official
+  module:
+    - user
+id: user_remove_role_action.official
+label: 'Remove the Official role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: official

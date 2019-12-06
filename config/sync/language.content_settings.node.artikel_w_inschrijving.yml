@@ -1,0 +1,11 @@
+uuid: 4d4fa17b-4bba-4717-b339-eec1cfc1c7e3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.artikel_w_inschrijving
+id: node.artikel_w_inschrijving
+target_entity_type_id: node
+target_bundle: artikel_w_inschrijving
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: df0c0800-4850-4240-b172-406cf56c2fcd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.slide_item
+id: node.slide_item
+target_entity_type_id: node
+target_bundle: slide_item
+default_langcode: site_default
+language_alterable: false

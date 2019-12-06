@@ -1,0 +1,32 @@
+uuid: dbc75132-e4a1-4530-b385-3e56cf36c6ff
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inschrijvingsformulier
+    - node.type.artikel_w_inschrijving
+    - webform.webform.inschrijving_proefles_zwemschool
+  module:
+    - webform
+id: node.artikel_w_inschrijving.field_inschrijvingsformulier
+field_name: field_inschrijvingsformulier
+entity_type: node
+bundle: artikel_w_inschrijving
+label: Inschrijvingsformulier
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 6fd3ab41-2818-4c5d-99a5-500c62bea52f
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

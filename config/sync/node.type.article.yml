@@ -1,0 +1,19 @@
+uuid: 43e31c17-763e-4243-bb76-7eafaccd1a7d
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Artikel
+type: article
+description: "Artikel. Inhoud van de website\r\nEnkel foto in teaser."
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

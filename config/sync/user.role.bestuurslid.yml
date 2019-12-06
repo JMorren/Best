@@ -1,0 +1,9 @@
+uuid: 7361c829-dc3f-4a2d-8b5f-44b357a2dd36
+langcode: nl
+status: true
+dependencies: {  }
+id: bestuurslid
+label: Bestuurslid
+weight: 7
+is_admin: null
+permissions: {  }

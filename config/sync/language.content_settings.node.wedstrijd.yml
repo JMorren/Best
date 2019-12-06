@@ -1,0 +1,11 @@
+uuid: 42f115e7-8adb-402c-bedd-c529f4ca4ac3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.wedstrijd
+id: node.wedstrijd
+target_entity_type_id: node
+target_bundle: wedstrijd
+default_langcode: site_default
+language_alterable: false

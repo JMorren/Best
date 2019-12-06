@@ -1,0 +1,22 @@
+uuid: b8887033-bec3-4280-8107-3fdc1882e4de
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.achievements
+id: node.achievements.promote
+field_name: promote
+entity_type: node
+bundle: achievements
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

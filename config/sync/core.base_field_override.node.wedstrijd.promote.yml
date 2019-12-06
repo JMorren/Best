@@ -1,0 +1,22 @@
+uuid: 775e06d9-7093-45f3-a544-baee3b128713
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.wedstrijd
+id: node.wedstrijd.promote
+field_name: promote
+entity_type: node
+bundle: wedstrijd
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

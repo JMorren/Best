@@ -1,0 +1,17 @@
+uuid: d655f654-0728-4b1e-a029-d5b56e2a3f47
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Achievements
+type: achievements
+description: 'Logo''s van Achievements (Kwaliteitslabels, verklaringen,...)'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

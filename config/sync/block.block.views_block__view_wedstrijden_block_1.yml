@@ -1,0 +1,30 @@
+uuid: 8d6366be-30dc-4164-99bb-a55118ebb5b2
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.view_wedstrijden
+  module:
+    - system
+    - views
+  theme:
+    - professional_responsive_theme
+id: views_block__view_wedstrijden_block_1
+theme: professional_responsive_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:view_wedstrijden-block_1'
+settings:
+  id: 'views_block:view_wedstrijden-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: ee2087f7-bc5d-4de7-ad0b-e4cb42efcf12
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: standaard
+label: standaard
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  a8827624-fda9-4e0d-abdc-db4099eb99f4:
+    id: node_type
+    bundles:
+      achievements: achievements
+      article: article
+      artikel_w_inschrijving: artikel_w_inschrijving
+      niews: niews
+      page: page
+      sponsors: sponsors
+      wedstrijd: wedstrijd
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a8827624-fda9-4e0d-abdc-db4099eb99f4
+selection_logic: and
+weight: -5
+relationships: {  }

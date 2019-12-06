@@ -1,0 +1,139 @@
+uuid: 42f96bb5-8955-4769-b828-f9a79674594d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.wedstrijd.field__race_resultaten
+    - field.field.node.wedstrijd.field_datumvantot
+    - field.field.node.wedstrijd.field_inschrijvingsformulier
+    - field.field.node.wedstrijd.field_race_informatie
+    - field.field.node.wedstrijd.field_race_ingeschreven
+    - field.field.node.wedstrijd.field_race_locatie
+    - field.field.node.wedstrijd.field_race_programma
+    - field.field.node.wedstrijd.field_race_voorprogramma
+    - node.type.wedstrijd
+  module:
+    - datetime_range
+    - file
+    - path
+    - scheduler
+    - text
+    - webform
+id: node.wedstrijd.default
+targetEntityType: node
+bundle: wedstrijd
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field__race_resultaten:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_datumvantot:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_inschrijvingsformulier:
+    weight: 15
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+  field_race_informatie:
+    weight: 9
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_race_ingeschreven:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_race_locatie:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_race_programma:
+    weight: 7
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_race_voorprogramma:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  path:
+    type: path
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 11
+    region: content
+    third_party_settings: {  }
+  publish_on:
+    type: datetime_timestamp_no_default
+    weight: 17
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 14
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 12
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  unpublish_on:
+    type: datetime_timestamp_no_default
+    weight: 16
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  uid: true

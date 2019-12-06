@@ -1,0 +1,27 @@
+uuid: 56baa553-9ad7-49db-a1e6-828e3bc18240
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - professional_responsive_theme
+_core:
+  default_config_hash: sqq79TO5Cb_GpL16x4unVw9mVi3Tb3YKkNXJHa9dxcM
+id: professional_responsive_theme_main_menu
+theme: professional_responsive_theme
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

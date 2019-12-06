@@ -1,0 +1,21 @@
+uuid: 7ab693f6-6693-47a1-adaf-ab2399c128c3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_race_informatie
+    - node.type.wedstrijd
+  module:
+    - text
+id: node.wedstrijd.field_race_informatie
+field_name: field_race_informatie
+entity_type: node
+bundle: wedstrijd
+label: Informatie
+description: 'Alle (extra) informatie over de wedstrijd.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

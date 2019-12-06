@@ -1,0 +1,11 @@
+uuid: 688da479-7f2c-4d4b-972b-eb188a672dd3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.achievements
+id: node.achievements
+target_entity_type_id: node
+target_bundle: achievements
+default_langcode: site_default
+language_alterable: false

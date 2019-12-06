@@ -1,0 +1,30 @@
+uuid: 24b235b9-c554-4738-b9f6-668e3ceee2b0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.sponsors.field_image
+    - field.field.node.sponsors.field_website
+    - image.style.schalen_en_bijsnijden_200_x_133
+    - node.type.sponsors
+  module:
+    - image
+    - user
+id: node.sponsors.default
+targetEntityType: node
+bundle: sponsors
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: schalen_en_bijsnijden_200_x_133
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_website: true
+  langcode: true
+  links: true

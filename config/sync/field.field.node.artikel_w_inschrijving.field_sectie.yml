@@ -1,0 +1,29 @@
+uuid: 1e21acaa-7070-401e-ac3d-429b15298d83
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sectie
+    - node.type.artikel_w_inschrijving
+    - taxonomy.vocabulary.sectie
+id: node.artikel_w_inschrijving.field_sectie
+field_name: field_sectie
+entity_type: node
+bundle: artikel_w_inschrijving
+label: Sectie
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sectie: sectie
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

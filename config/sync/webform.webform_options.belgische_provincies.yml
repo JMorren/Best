@@ -1,0 +1,9 @@
+uuid: 1bcaa8c5-8a6d-435e-b497-abe5718869a9
+langcode: nl
+status: true
+dependencies: {  }
+id: belgische_provincies
+label: 'Belgische Provincies'
+category: Geographic
+likert: false
+options: "Antwerpen: Antwerpen\nLimburg: Limburg\nOost-Vlaanderen: Oost-Vlaanderen\nVlaams-Brabant: Vlaams-Brabant\nHenegouwen: Henegouwen\nLuik: Luik\nLuxemburg: Luxemburg\nNamen: Namen\nWaals-Brabant: Waals-Brabant\n"

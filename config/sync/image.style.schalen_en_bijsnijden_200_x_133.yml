@@ -1,0 +1,21 @@
+uuid: 0e5a5994-f4c8-4c67-af23-2c569e16dd8a
+langcode: nl
+status: true
+dependencies: {  }
+name: schalen_en_bijsnijden_200_x_133
+label: 'Schalen en bijsnijden 200 x 133'
+effects:
+  86eeb891-f9ef-44b3-b591-b6ed29e1b0dd:
+    uuid: 86eeb891-f9ef-44b3-b591-b6ed29e1b0dd
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 200
+      height: 133
+      anchor: center-center
+  91933e9a-3e00-4784-9c98-b326c5c25bad:
+    uuid: 91933e9a-3e00-4784-9c98-b326c5c25bad
+    id: image_convert
+    weight: -10
+    data:
+      extension: png

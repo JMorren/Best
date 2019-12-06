@@ -1,0 +1,34 @@
+uuid: 1fa50b8e-22f4-41c0-8832-f68474faebd0
+langcode: nl
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+id: css_node
+label: 'CSS node'
+code: "body {\r\n  font-family: Verdana, Geneva, sans-serif;\r\n  font-size: 14px;\r\n  letter-spacing: 0px;\r\n  word-spacing: 0px;\r\n  color: #4d4d4d;\r\n  font-weight: normal;\r\n  font-weight: 300;\r\n  text-decoration: none;\r\n  font-style: normal;\r\n  font-variant: normal;\r\n  text-transform: none;\r\n}\r\n\r\nh1 {\r\n  border-bottom: 1px solid #CCC;\r\n    color: #555;\r\n    font-family: Arial;\r\n    font-size: 18px;\r\n    font-weight: normal;\r\n    margin: 5px 0px;\r\n    padding: 0px 0px 4px 0px;\r\n    text-transform: uppercase;\r\n}\r\n\r\nimg\r\n{\r\n  margin-bottom:20px;\r\n  margin-right:40px;\r\n  margin-Left:2px;\r\n  margin-top:10px;\r\n  float:left;\r\n}\r\n.field\r\n{\r\n  padding-bottom: 0.5em;\r\n}\r\n"
+media: all
+preprocess: true
+conditions:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      artikel_w_inschrijving: artikel_w_inschrijving
+      niews: niews
+      wedstrijd: wedstrijd
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      artikel_w_inschrijving: artikel_w_inschrijving
+      niews: niews
+      wedstrijd: wedstrijd
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+conditions_require_all: true

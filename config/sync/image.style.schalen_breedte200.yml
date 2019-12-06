@@ -1,0 +1,21 @@
+uuid: cba7bc89-9393-4c05-a87d-7b063bcc9dc6
+langcode: nl
+status: true
+dependencies: {  }
+name: schalen_breedte200
+label: 'Schalen Breedte200'
+effects:
+  a92c338f-aa47-41ca-8ca5-f372e3ddef94:
+    uuid: a92c338f-aa47-41ca-8ca5-f372e3ddef94
+    id: image_convert
+    weight: 1
+    data:
+      extension: png
+  e2eb2871-b3e9-45e9-a75c-d42efae3eea3:
+    uuid: e2eb2871-b3e9-45e9-a75c-d42efae3eea3
+    id: image_scale
+    weight: 2
+    data:
+      width: 200
+      height: null
+      upscale: false
