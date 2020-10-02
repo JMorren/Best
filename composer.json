@@ -31,7 +31,7 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal/core-composer-scaffold": "~8.8.1",
+        "drupal/core-composer-scaffold": "^8.8.1",
         "drupal/admin_toolbar": "^2.0",
         "drupal/asset_injector": "^2.4",
         "drupal/core": "^8.8@beta",
